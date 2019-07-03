@@ -1,0 +1,5 @@
+$('#reassignTask').DataTable({ //set datatable
+  "fnRowCallback": function (nRow, aData, iDisplayIndex, iDisplayIndexFull) {
+                        $('td', nRow).css('background-color', 'white'); //change background color to white.
+                }
+});
